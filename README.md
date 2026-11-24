@@ -80,6 +80,8 @@ cp .env.example .env.local
 npm run dev
 ```
 
+If you already have a Convex development deployment, set `CONVEX_DEPLOYMENT` in `.env.local` to its deployment reference. Leave it unset to let `npx convex dev` configure the development deployment.
+
 ---
 
 ## 🤝 Contributing
